@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>network-manager-libreswan</id>
+  <project_license>GPL-2.0+</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <extends>nm-connection-editor.desktop</extends>
+  <extends>gnome-control-center.desktop</extends>
+  <name>IPsec VPN client</name>
+  <name xml:lang="ca">Client IPsec VPN</name>
+  <name xml:lang="cs">Klient IPsec VPN</name>
+  <name xml:lang="da">IPsec-VPN-klient</name>
+  <name xml:lang="de">IPsec-VPN-Client</name>
+  <name xml:lang="es">cliente VPN de IPsec</name>
+  <name xml:lang="fi">IPsec VPN -asiakasohjelmisto</name>
+  <name xml:lang="fr">IPsec VPN client</name>
+  <name xml:lang="fur">Client VPN di IPsec</name>
+  <name xml:lang="hr">IPsec VPN klijent</name>
+  <name xml:lang="hu">IPsec VPN kliens</name>
+  <name xml:lang="id">Klien VPN IPsec</name>
+  <name xml:lang="it">Client VPN IPsec</name>
+  <name xml:lang="ja">IPsec VPN クライアント</name>
+  <name xml:lang="ko">IPsec VPN 클라이언트 </name>
+  <name xml:lang="lt">IPsec VPN klientas</name>
+  <name xml:lang="lv">IPsec VPN klients</name>
+  <name xml:lang="nl">IPsec-VPN-cliënt</name>
+  <name xml:lang="pl">Klient VPN IPsec</name>
+  <name xml:lang="pt_BR">Cliente VPN IPsec</name>
+  <name xml:lang="ro">Client VPN IPsec</name>
+  <name xml:lang="ru">Клиент VPN IPsec</name>
+  <name xml:lang="sr">ИПсец ВПН клијент</name>
+  <name xml:lang="sr@latin">IPsec VPN klijent</name>
+  <name xml:lang="sv">IPsec VPN-klient</name>
+  <name xml:lang="tr">IPsec VPN istemcisi</name>
+  <name xml:lang="uk">Клієнт VPN IPsec</name>
+  <name xml:lang="zh_CN">IPsec VPN 客户端</name>
+  <name xml:lang="zh_TW">IPsec VPN客戶端</name>
+  <summary>Libreswan based client for IKEv1 based IPsec virtual private networks</summary>
+  <summary xml:lang="ca">Client basat en el Libreswan per a xarxes privades virtuals IPsec basades en IKEv1</summary>
+  <summary xml:lang="cs">Klient založený na Libreswan pro síťová připojení IPsec založená na IKEv1. </summary>
+  <summary xml:lang="da">Klient baseret på Libreswan til IKEv1-baserede virtuelle private IPsec-netværk</summary>
+  <summary xml:lang="de">Auf Libreswan basierender Client für IKEv1-basierte IPsec virtuelle private Netze</summary>
+  <summary xml:lang="es">Cliente basado en libreswan para redes privadas virtuales IKEv1 basadas en IPsec</summary>
+  <summary xml:lang="fr">Client basé Libreswan pour les réseaux privés virtuels IPsec basé IKEv1</summary>
+  <summary xml:lang="fur">Client basât su Libreswan par rêts privadis virtuâls IPsec basadis su IKEv1</summary>
+  <summary xml:lang="hr">Libreswan temeljen klijent za IKEv1 temeljene IPsec virtualne privatne mreže</summary>
+  <summary xml:lang="hu">Libreswan alapú kliens az IKEv1 alapú IPsec virtuális magánhálózatokhoz</summary>
+  <summary xml:lang="id">Klien berbasis libreswan bagi virtual private network IPsec berbasis IKEv1</summary>
+  <summary xml:lang="it">Client basato su Libreswan per reti private virtuali IPsec basate su IKEv1</summary>
+  <summary xml:lang="ja">IKEv1 ベースの IPsec 仮想プライベートネットワーク向けの Libreswan ベースのクライアント</summary>
+  <summary xml:lang="ko"> IKEv1 기반 IPsec VPN의 Libreswan 기반 클라이언트 </summary>
+  <summary xml:lang="lt">Libreswan pagrįstas klientas, skirtas IKEv1 pagrįstiems IPsec virtualiems privatiems tinklams</summary>
+  <summary xml:lang="lv">Uz Libreswan balstīts klients uz IKEv1 balstītiem IPsec virtuālajiem privātajiem tīkliem</summary>
+  <summary xml:lang="nl">Libreswan-gebaseerde cliënt voor op IKEv1 gebaseerde IPsec-virtuele privénetwerken</summary>
+  <summary xml:lang="pl">Klient oparty na bibliotece libreswan dla wirtualnych sieci prywatnych IPsec opartych na IKEv1</summary>
+  <summary xml:lang="pt_BR">Cliente baseado em Libreswan para redes privadas virtuais IPsec baseadas em IKEv1</summary>
+  <summary xml:lang="ro">Client bazat pe Libreswan pentru rețelele private virtuale IPsec bazate pe IKEv1</summary>
+  <summary xml:lang="ru">Клиент на основе Libreswan для виртуальных частных сетей IPSec на основе IKEv1</summary>
+  <summary xml:lang="sr">Клијент заснован на Либресвану за ИПсец виртуелне приватне мреже засноване на ИКЕв1</summary>
+  <summary xml:lang="sr@latin">Klijent zasnovan na Libresvanu za IPsec virtuelne privatne mreže zasnovane na IKEv1</summary>
+  <summary xml:lang="sv">Libreswan-baserad klient för IKEv1-baserade IPsec virtuella privata nätverk</summary>
+  <summary xml:lang="tr">IKEv1 tabanlı IPsec sanal özel ağları için Libreswan temelli istemci</summary>
+  <summary xml:lang="uk">Клієнт на основі libreswan для віртуальних приватних мереж IPsec на основі IKEv1</summary>
+  <summary xml:lang="zh_CN">基于 Libreswan 的客户端，用于基于 IKEv1 的 IPsec 虚拟专用网络</summary>
+  <summary xml:lang="zh_TW">基於Libreswan的客戶端，用於基於IKEv1的IPsec虛擬專用網絡</summary>
+
+  <keywords>
+    <keyword>network</keyword>
+    <keyword>manager</keyword>
+    <keyword>NetworkManager</keyword>
+    <keyword>connection</keyword>
+    <keyword>VPN</keyword>
+    <keyword>Libreswan</keyword>
+    <keyword>IPsec</keyword>
+    <keyword>IKEv1</keyword>
+  </keywords>
+
+  <description>
+    <p>Support for configuring IKEv1 based IPsec virtual private network connections.</p>
+    <p xml:lang="ca">Suport per a configurar connexions de xarxes privades virtuals IPsec basades en IKEv1.</p>
+    <p xml:lang="cs">Podpora pro nastavení síťových připojení IPsec založených na IKEv1.</p>
+    <p xml:lang="da">Understøttelse af konfigurering af IKEv1-baserede virtuelle private IPsec-netværksforbindelser.</p>
+    <p xml:lang="de">Unterstützung für die Konfiguration von IKEv1-basierten IPsec virtuellen privaten Netz-Verbindungen.</p>
+    <p xml:lang="es">Soporte para configurar redes privadas virtuales IKEv1 basadas en IPsec.</p>
+    <p xml:lang="fr">Support de configuration pour les connexions de réseau privé virtuel IPsec basé IKEv1</p>
+    <p xml:lang="fur">Supuart par configurâ lis consessions di rêts privadis virtuâls IPsec basadis su IKEv1.</p>
+    <p xml:lang="hr">Podrška za podešavanje IKEv1 temeljenih na povezivanjima IPsec virtualnih privatnih mreža.</p>
+    <p xml:lang="hu">Az IKEv1 alapú IPsec virtuális magánhálózati kapcsolatok beállításának támogatása.</p>
+    <p xml:lang="id">Dukungan untuk menata koneksi virtual private network IPsec berbasis IKEv1.</p>
+    <p xml:lang="it">Supporta la configurazione di connessioni private virtuali IPsec basate su IKEv1.</p>
+    <p xml:lang="ja">IKEv1 ベースの IPsec 仮想プライベートネットワーク接続に関する設定のサポート</p>
+    <p xml:lang="ko">IKEv1 기반 IPsec VPN 연결 설정 지원 </p>
+    <p xml:lang="lt">IKEv1 pagrįstų IPsec virtualių privačių tinklų ryšių konfigūracijos palaikymas.</p>
+    <p xml:lang="lv">Atbalsts IKEv1 IPsec virtuālo privāto tīklu savienojumu konfigurēšanai.</p>
+    <p xml:lang="nl">Ondersteuning voor configuratie van op IKEv1 gebaseerde IPsec-virtueleprivénetwerkverbindingen.</p>
+    <p xml:lang="pl">Obsługa konfigurowania połączeń wirtualnych sieci prywatnych IPsec opartych na IKEv1.</p>
+    <p xml:lang="pt_BR">Suporte a configuração de conexões de rede privada virtal IPsec baseada em IKEv1.</p>
+    <p xml:lang="ro">Suport pentru configurarea conexiunilor de rețea privată virtuală IPsec bazate pe KEv1.</p>
+    <p xml:lang="ru">Поддержка настройки IPSec на основе IKEv1 виртуальных частных сетевых подключений.</p>
+    <p xml:lang="sr">Подршка за подешавање ИПсец веза виртуелне приватне мреже заснованих на ИКЕв1.</p>
+    <p xml:lang="sr@latin">Podrška za podešavanje IPsec veza virtuelne privatne mreže zasnovanih na IKEv1.</p>
+    <p xml:lang="sv">Stöd för att konfigurera IKEv1-baserade IPsec virtuella privata nätverksanslutningar.</p>
+    <p xml:lang="tr">IKEv1 tabanlı IPsec sanal özel ağ bağlantılarını yapılandırma desteği.</p>
+    <p xml:lang="uk">Підтримка налаштовування з'єднань із віртуальними приватними мережами IPsec на основі IKEv1.</p>
+    <p xml:lang="zh_CN">支持配置基于 IKEv1 的 IPsec 虚拟专用网络连接。</p>
+    <p xml:lang="zh_TW">支持配置基於IKEv1的IPsec虛擬專用網絡連接。</p>
+    <p>Compatible with Libreswan and Cisco IPsec VPN servers.</p>
+    <p xml:lang="ca">Compatible amb servidors VPN Libreswan i Cisco IPsec.</p>
+    <p xml:lang="cs">Kompatibilní s IPsec VPN servery Libreswan a Cisco.</p>
+    <p xml:lang="da">Kompatibel med Libreswan og Ciscos IPsec-VPN-servere.</p>
+    <p xml:lang="de">Kompatibel mit Libreswan- und Cisco IPsec-VPN-Servern.</p>
+    <p xml:lang="es">Compatible con servidores Libreswan Cisco IPsec VPN.</p>
+    <p xml:lang="fi">Yhteensopiva Libreswan- ja Cisco IPsec VPN -palvelimien kanssa.</p>
+    <p xml:lang="fr">Compatible avec les serveurs VPN IPsec Cisco et Libreswan.</p>
+    <p xml:lang="fur">Compatibil cun servidôrs VPN IPsec Libreswan e Cisco.</p>
+    <p xml:lang="hr">Kompatibilno s Libreswan i Cisco IPsec VPN poslužiteljima.</p>
+    <p xml:lang="hu">Kompatibilis a Libreswan és Cisco IPsec VPN-kiszolgálókkal.</p>
+    <p xml:lang="id">Kompatibel dengan server VPN IPsec Cisco dan Libreswan.</p>
+    <p xml:lang="it">Compatibile con Libresca e i server VPN IPsec Cisco.</p>
+    <p xml:lang="ja">Libreswan および Cisco IPsec VPN サーバーと互換性があります。</p>
+    <p xml:lang="ko"> Libreswan 및 Cisco IPsec VPN 서버와 호환됩니다. </p>
+    <p xml:lang="lt">Suderinama su Libreswan is Cisco IPsec VPN serveriais.</p>
+    <p xml:lang="lv">Savietojams ar Libreswan un Cisco IPsec VPN serveriem.</p>
+    <p xml:lang="nl">Compatibel met Libreswan- en Cisco-IPsec-VPN-servers.</p>
+    <p xml:lang="pl">Zgodne z biblioteką libreswan i serwerami VPN IPsec firmy Cisco.</p>
+    <p xml:lang="pt_BR">Compatível com servidores VPN IPsec Libreswan e Cisco.</p>
+    <p xml:lang="ro">Compatibil cu serverele Libreswan și VPN IPsec Cisco.</p>
+    <p xml:lang="ru">Совместимость с VPN-серверами Libreswan и Cisco IPsec.</p>
+    <p xml:lang="sr">Сагласно са Либресван и Циско ИПсец ВПН серверима.</p>
+    <p xml:lang="sr@latin">Saglasno sa Libresvan i Cisko IPsec VPN serverima.</p>
+    <p xml:lang="sv">Kompatibel med Libreswan och Cisco IPsec VPN-servrar.</p>
+    <p xml:lang="tr">Libreswan ve Cisco IPsec VPN sunucularıyla uyumludur.</p>
+    <p xml:lang="uk">Сумісний із серверами VPN libreswan та IPsec Cisco.</p>
+    <p xml:lang="zh_CN">兼容于 Libreswan 和思科 IPsec VPN 服务器。</p>
+    <p xml:lang="zh_TW">與Libreswan和Cisco IPsec VPN服務器兼容。</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image width="624" height="618">https://gitlab.gnome.org/GNOME/NetworkManager-libreswan/raw/master/appdata/libreswan.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://wiki.gnome.org/Projects/NetworkManager/VPN</url>
+  <url type="bugtracker">https://gitlab.gnome.org/GNOME/NetworkManager-libreswan/issues</url>
+  <update_contact>networkmanager-maint@gnome.bugs</update_contact>
+  <translation type="gettext">NetworkManager-libreswan</translation>
+  <developer_name>The NetworkManager Developers</developer_name>
+  <developer_name xml:lang="ca">Els desenvolupadors del NetworkManager</developer_name>
+  <developer_name xml:lang="cs">Vývojáři aplikace NetworkManager</developer_name>
+  <developer_name xml:lang="da">Udviklerne af Netværkshåndtering</developer_name>
+  <developer_name xml:lang="de">Die Entwickler von NetworkManager</developer_name>
+  <developer_name xml:lang="es">Los desarrolladores de NetworkManager</developer_name>
+  <developer_name xml:lang="fi">NetworkManagerin kehittäjät</developer_name>
+  <developer_name xml:lang="fr">Les développeurs de NetworkManager</developer_name>
+  <developer_name xml:lang="fur">I svilupadôrs di NetworkManager</developer_name>
+  <developer_name xml:lang="hr">Razvijatelji Mrežnog upravitelja</developer_name>
+  <developer_name xml:lang="hu">A Hálózatkezelő fejlesztői</developer_name>
+  <developer_name xml:lang="id">Para Pengembang NetworkManager</developer_name>
+  <developer_name xml:lang="it">Gli sviluppatori di NetworkManager</developer_name>
+  <developer_name xml:lang="ja">NetworkManager 開発者</developer_name>
+  <developer_name xml:lang="ko">NetworkManager 개발자 </developer_name>
+  <developer_name xml:lang="lt">NetworkManager kūrėjai</developer_name>
+  <developer_name xml:lang="lv">NetworkManager izstrādātāji</developer_name>
+  <developer_name xml:lang="nl">De NetworkManager-ontwikkelaars</developer_name>
+  <developer_name xml:lang="pl">Programiści projektu NetworkManager</developer_name>
+  <developer_name xml:lang="pt_BR">Os desenvolvedores NetworkManager</developer_name>
+  <developer_name xml:lang="ro">Dezvoltatori ManagerRețea</developer_name>
+  <developer_name xml:lang="ru">Разработчики NetworkManager</developer_name>
+  <developer_name xml:lang="sr">Програмери Управника мреже</developer_name>
+  <developer_name xml:lang="sr@latin">Programeri Upravnika mreže</developer_name>
+  <developer_name xml:lang="sv">Utvecklarna av Nätverkshanteraren</developer_name>
+  <developer_name xml:lang="tr">NetworkManager Geliştiricileri</developer_name>
+  <developer_name xml:lang="uk">Розробники NetworkManager</developer_name>
+  <developer_name xml:lang="zh_CN">NetworkManager 开发者</developer_name>
+  <developer_name xml:lang="zh_TW">NetworkManager開發人員</developer_name>
+</component>
